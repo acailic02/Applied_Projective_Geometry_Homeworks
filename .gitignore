@@ -1,0 +1,64 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+*.env
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Byte-compiled / cache files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- IDE / Editor specific ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Data / Results ---
+data/
+results/
+output/
+outputs/
+figures/
+plots/
+*.csv
+*.npz
+*.npy
+*.mat
+
+# --- Misc project files ---
+*.pdf
+*.zip
+*.tar
+*.gz
+
+# --- Optional: ignore large experiment files ---
+checkpoints/
+models/
+*.h5
+*.pth
+*.pt
